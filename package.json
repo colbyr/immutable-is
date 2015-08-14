@@ -2,8 +2,9 @@
   "name": "immutable-is",
   "version": "3.7.4",
   "description": "Immutable.is() from ImmutableJS",
-  "main": "is.js",
+  "main": "dist/is.js",
   "scripts": {
+    "build": "babel -o dist/is.js src/is.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/colbyr/immutable-is/issues"
   },
-  "homepage": "https://github.com/colbyr/immutable-is"
+  "homepage": "https://github.com/colbyr/immutable-is",
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
 }
