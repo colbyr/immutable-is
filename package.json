@@ -1,6 +1,6 @@
 {
   "name": "immutable-is",
-  "version": "3.7.4",
+  "version": "3.7.6",
   "description": "Immutable.is() from ImmutableJS",
   "main": "dist/is.js",
   "scripts": {
